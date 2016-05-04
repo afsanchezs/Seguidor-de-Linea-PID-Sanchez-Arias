@@ -67,8 +67,6 @@ void loop() {
   //Visualizacion
   Serial.print("Input: ");
   Serial.print(Input ,BIN);
-  /*Serial.print(Setpoint,BIN);
-  Serial.print(Right,BIN);*/
   Serial.print("\t");
   Serial.print("PID: ");
   Serial.print(Output);
